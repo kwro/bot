@@ -1,0 +1,138 @@
+##############################################################################
+# For more information on parameters, refer to: 
+# https://docs.gramaddict.org/#/configuration?id=configuration-file
+#
+# Note: be sure to comment out any parameters not used by adding a # in front
+# AGAIN: YOU DON'T HAVE TO DELETE THE LINE, BUT ONLY COMMENT IT WITH A #!
+##############################################################################
+# General Configuration
+##############################################################################
+
+username: equest_connect # you have to put your IG name here!
+# device: put_your_device_id_there # 'adb devices' in the console to know it.  It's needed only if you have more than 1 device connected
+app-id: com.instagram.android
+use-cloned-app: false
+allow-untested-ig-version: true # Using an untested version of IG would cause unexpected behavior because some elements in the user interface may have been changed
+screen-sleep: true
+screen-record: false
+speed-multiplier: 0.9
+debug: false
+close-apps: false
+kill-atx-agent: true
+restart-atx-agent: true
+disable-block-detection: false
+disable-filters: false
+dont-type: false
+# scrape-to-file: scraped.txt
+total-crashes-limit: 5
+count-app-crashes: false
+shuffle-jobs: true
+truncate-sources: 7-12
+
+##############################################################################
+# Actions
+##############################################################################
+
+## Interaction (active jobs)
+blogger-followers: [ stajnia_otulina, juliaopawska, matildebrandt, lewicki.marek, gosiacl, filip_polowczyk_treningi, oliwia_reaud, klaudia_nalepa_dressage, lkj_ostrogaopole, blackhorse_cosmetics, leap_year_farm_llc_, horse_by_anna, jcdressage_, alkasowa, m_cwiek5, stajnia_wiktoria_jankowska_eq, nadia_chojnacka, horsetack_shop, animus.fizjo, zaplatani_wkonskichgrzywach, anasokolska, magdajuraofficial, foranequine, foran.net.pl, aplilab.school, patrycjak1509, gierszewska_dressage, flyingdressage, b.rynkowska_dressage, lottie_fry, a.sliwkaaa, gallopxmania, stajniagoldenhorse, lerasalash.photo, jradwanskax, robertobrasilofficial, hkmsportsequipment, horsie.candle, natural_eventing_rider, michalkubiak_, z7showhorses, ariatequestrian, swiatwesternu, p.pellowska, ogiery_kicinland, red_camera_photo, hanna.wydorska, tyrkiel_ania_, malgoskrynska, kasia.torun, maja._grzywacz, borysowa, deli_horsesndogs, xxmagdacwikxx, sklepkarina, tackroomj, janina.marta, kajj.cia_145, equus_academy, healthymeadow, saddlefit.dk, kat_lisek, bluechipfeed, nkluska_equineteam, ariatinternational, barbara_polap_eq, ka.pala, liwia_strzeszewska_, wierzchowscy_dressage_team, koniara_i_jej_konie, martyna_wodyk, matylda_olajossy, majazawada_ohl, canagri_jezdziectwo, m.dreger, oczki.equestrian, le_szapo, spaniewvanie, lenart_arabian_horses, michaeljungofficialnews, olakierznowska, alberto.zorzi, nefthis, davekubiak, stajniaiskra, hempqualizer, jaworskagabrieladressage, amanda_perkowski, urania.ai, fridahygum_dressage, jagodnedressage, ania.gwozdz_ohl, alinaz, alfako_pl, de.beukenvallei, photo_by_madzik, biofeed.horseandpony, kadraskoki.pl, matt_harnacke, chodorowska.fotografia, drseidel_konie, laura.klapinska, ala_kosmol, kisiel.horses, wiochazocha, karolinabojda_equestrian, kon.u.psychologa, _annabelle_gypsy_cob_, anneleisesanchez, maciekodskokow, roksanaxnawrocka, rozynekmartin, kbenec_horses, kasiaferenz, stajniaferdyn, paulinachaberphotography, doctor.horse.original, equishade_print, feraequestrian, over_horse, nubaequi, paka_dla_rumaka, karolin.rybicka, pieknykonik, kozera_horses, laura.kulita, n.kapelaa, arts_of_nawia, drozd_miska, taja_zoll_dressage, sonia_dzwigalska, mst.therider, sk_bagieniec, klub_jezdziecki_lencze, szkolanakopytach, mm._.horses, nd_westrider_, trener_maciej_wojciechowski, biopaszedarynatury, equilightness, moledzka_ola, julia.sj.horses, kamijamii, wiktorbatmanszala, largostable, retkakrzysztof, wera_sport_horses, mokoszofficial, jazzuptraining, vanilla_pink_pepper, monika.bartys, paulina__zubrzycka, niulonek, happyhorsesteam, ytc_your_training_center, 4equinepl, jaroslaw_skrzyczynski, luvley.kitty2, harlowlunawhite, zelek_eq, majcia_oswiecinska_official, katarzyna_halter, equinepharmacy, pogotowie_weterynaryjne_equmai, nieumiemjezdzic_, hoof_craft, kjbachmat, lisa_roeckener, ruskowscy.horses, poryw_serca, terranova_eq, dagmara_eq, justinavanagaite, jezdziectwobeztajemnic, ilo_janasdressage, karolina_szczepanskaa, natalia.goreckaa, zuzabednarz_ohl, gm_horses, hihorse.official, ridarella.store, klaudia_kostrzebska, fagerbits, kon_w_swetrze, sabrinahidiroglou, equisk.official, dressage24.pl, cattasegerheim, ridely.app, equilabapp, equestria.pl, susana_catherine, mona_jaw, hh_jawlery, julia_moczak, julia_jokiel, jlenart_dressage, karolamazurekk, alexandra_szulc, hubertjankowski_, joanna__tragarz, koniulkaa, rzeshaq, clintara_nika, md_dressagepl, beatastremler, kosa_dressage_jumping_horses, kaasial, zalewska_sosna, anna_grygier_wojtowicz, bialylas_stajnia, lkjlewada, veronica.pawluk, mierzejewska_dressage, theprojectequestrian, choinkaonlinepl, magda_jura_dressage_rider, morganbm92, focussed_photography, m.and.a.michnik, nicolabaurdressage, galkowoskferensteinow, varsovia_dressage_club, alicja.karczmarczuk.dressage, fotofaraa, poplawska.alexandra, brunodelgrange_polska, equiraio, laferek, janekkaminski, domi_centurion, jagodxd, florakorkuc, kamil_grzelczyk, tati_b122, ewagolubinska, reitgefuehl_, longinesglobalchampionstour, historicpix, klaraka_rockhorses, stajniazgraja, bemer.martyna.chmielewska, blondedressage, noskonskiwlos, z.kopyta.rekodzielo, dressagetoday, karolinaferenstein_krasko, equiharmony20, equi_harmony, horsereflection, instytutjazdykonnej, onehorselife_official, equinebodyworkonline, herbihorse_shop, candyhorse_shop, ishaansharma711, w_zgodzie_z_koniem, equifizjo_fizjoterapia_koni, beto_baumgartel, hippovet, jd.attack, mizerkaequine, aleksaa_acz, ola_mudry, tazlasu, lina_uzn, jacobnby, lendy.pl, stadnina_koni_rzeczna, _blueberry_mind, chrupka_zywimy_konie, szkoleniajezdzieckie, warsawjumping, stajnia.niderssus, jaroslaw_wierzchowski, eqmarketing, kjkszary.pl, archippstajnia, lumpeks_jezdziecki, ransamorth, salonkonskiswiat, make_life_harder, gsoares.epae, redmills.com.pl, teresa.tomaszewska_dressage, marcin_woldanski_dressage, veronica_madej, noellefloyd, harasophiag, hipodromwola, nauszniki_babuni, kurkaanka, polish_equestrian_federation, dariakobiernik, preisnerdressage, doprzodu.com.pl, pamirek, alicja_kwasniewska_, doks_dressage, xpatyskaxx, szewcwbutach, juliabrodziakdressage, horse_mare_dzordzeta, natalia.ciman, gabriela_adamczewska, caselle.the.filly, traje_de_centurion, stineshorsejumping, agapaszcza, emilyimmerzeder, hella_marina_julia_fp, zuz.eq_, stajnia.eldorado_, stallcarlberg, brown_fur_rulez, vienna.wette, mivicollections, helenegiske, liberty__horses, motty_mac, traverfamilien, krajewsk_aa, maciak_fotografia, liskowa.official, kasiatrojanczyk, katsolifestyle, havnia.equestrian, kasiacaban, kush.tourist, majolszewska, sylwiaklara, grzspl, grb.opowiesci, tz_instable, prezes.robus, szymonsmol, thekonikpomponik, tiemks_equestrian, grubajkamajka, haniapsk, gabi__kaz, marcelinamatyszczak, nicolas__josse, jules_kolodziejak, igaw14, woinskaagata, aud_hrey_07, klusek_1991, knedlikolama, szlachetka.magdalena, gosiakorycka, lidia.kacperska.behawiorystyka, nowaczii, xcxzuzaxcx, kuczerkonno, a_mwojtkowska, equi.physiq, chrzabunixon, magda_konno, filip_kacalski_photography, monikakaminska_official, moniamonika3, mag_horses, kluskaszanel, areksuwinski, miss.popelina, sebsow94_, marlenq__, krzywe_druty, fojmo, tommargol, ows.__, moniwojka, ad_zarow, mrozej14, pawelikoty, thebigbartowski, aliceesmoon, kejtzor, m.m.m.s.58, blossom.themare, mat_romanowicz, stajnia.harmonypark, zt.showjumping, lamaskacze, olga_safronova_dressage, jezdziectwotosport, ewelina.z_or, equi.union, ankr_dressage, ostrowska1604, g_like_gabriela, olgarockshots, gmyrciu_, winieckaa_a, ceo_of_fabbzone, pasja_equine, ala_.eq, oliwiasabala_photography, madzkabrize, stajniaroslonce, otherway_treningi_fizjoterapia, the.two.blondes.team, millydressage, kkaarroo1411, _wieczorek.bartek, horse_partners, martadziakgierlicz, acuvetjasinska, basiapo1976, never7giveup, zbikowa, mlody.jankes, agata_rulon, get.the.balance, kasia.komarek, kroljulian_, beckersportequestrian, horsienene, elizka.zawadzka, anastazja_aksa, koniareczka_kinga, hania.kalita, martyna_reszkaa, pola_czerwinska, maniaa_bed, julka.jaworek, kortneyhate_official, valenokkk, oliwiasabala, __modless, guzowata, gookii13, a12training, horse_and_girl1985, zuzanna_wlodarczykeq, mati.kochlewska, klopotowska, horsephysio_, nereidr94, ewa_janiszewska, just_jzi]
+blogger-following: [ stajnia_otulina, juliaopawska, matildebrandt, lewicki.marek, gosiacl, filip_polowczyk_treningi, oliwia_reaud, klaudia_nalepa_dressage, lkj_ostrogaopole, blackhorse_cosmetics, leap_year_farm_llc_, horse_by_anna, jcdressage_, alkasowa, m_cwiek5, stajnia_wiktoria_jankowska_eq, nadia_chojnacka, horsetack_shop, animus.fizjo, zaplatani_wkonskichgrzywach, anasokolska, magdajuraofficial, foranequine, foran.net.pl, aplilab.school, patrycjak1509, gierszewska_dressage, flyingdressage, b.rynkowska_dressage, lottie_fry, a.sliwkaaa, gallopxmania, stajniagoldenhorse, lerasalash.photo, jradwanskax, robertobrasilofficial, hkmsportsequipment, horsie.candle, natural_eventing_rider, michalkubiak_, z7showhorses, ariatequestrian, swiatwesternu, p.pellowska, ogiery_kicinland, red_camera_photo, hanna.wydorska, tyrkiel_ania_, malgoskrynska, kasia.torun, maja._grzywacz, borysowa, deli_horsesndogs, xxmagdacwikxx, sklepkarina, tackroomj, janina.marta, kajj.cia_145, equus_academy, healthymeadow, saddlefit.dk, kat_lisek, bluechipfeed, nkluska_equineteam, ariatinternational, barbara_polap_eq, ka.pala, liwia_strzeszewska_, wierzchowscy_dressage_team, koniara_i_jej_konie, martyna_wodyk, matylda_olajossy, majazawada_ohl, canagri_jezdziectwo, m.dreger, oczki.equestrian, le_szapo, spaniewvanie, lenart_arabian_horses, michaeljungofficialnews, olakierznowska, alberto.zorzi, nefthis, davekubiak, stajniaiskra, hempqualizer, jaworskagabrieladressage, amanda_perkowski, urania.ai, fridahygum_dressage, jagodnedressage, ania.gwozdz_ohl, alinaz, alfako_pl, de.beukenvallei, photo_by_madzik, biofeed.horseandpony, kadraskoki.pl, matt_harnacke, chodorowska.fotografia, drseidel_konie, laura.klapinska, ala_kosmol, kisiel.horses, wiochazocha, karolinabojda_equestrian, kon.u.psychologa, _annabelle_gypsy_cob_, anneleisesanchez, maciekodskokow, roksanaxnawrocka, rozynekmartin, kbenec_horses, kasiaferenz, stajniaferdyn, paulinachaberphotography, doctor.horse.original, equishade_print, feraequestrian, over_horse, nubaequi, paka_dla_rumaka, karolin.rybicka, pieknykonik, kozera_horses, laura.kulita, n.kapelaa, arts_of_nawia, drozd_miska, taja_zoll_dressage, sonia_dzwigalska, mst.therider, sk_bagieniec, klub_jezdziecki_lencze, szkolanakopytach, mm._.horses, nd_westrider_, trener_maciej_wojciechowski, biopaszedarynatury, equilightness, moledzka_ola, julia.sj.horses, kamijamii, wiktorbatmanszala, largostable, retkakrzysztof, wera_sport_horses, mokoszofficial, jazzuptraining, vanilla_pink_pepper, monika.bartys, paulina__zubrzycka, niulonek, happyhorsesteam, ytc_your_training_center, 4equinepl, jaroslaw_skrzyczynski, luvley.kitty2, harlowlunawhite, zelek_eq, majcia_oswiecinska_official, katarzyna_halter, equinepharmacy, pogotowie_weterynaryjne_equmai, nieumiemjezdzic_, hoof_craft, kjbachmat, lisa_roeckener, ruskowscy.horses, poryw_serca, terranova_eq, dagmara_eq, justinavanagaite, jezdziectwobeztajemnic, ilo_janasdressage, karolina_szczepanskaa, natalia.goreckaa, zuzabednarz_ohl, gm_horses, hihorse.official, ridarella.store, klaudia_kostrzebska, fagerbits, kon_w_swetrze, sabrinahidiroglou, equisk.official, dressage24.pl, cattasegerheim, ridely.app, equilabapp, equestria.pl, susana_catherine, mona_jaw, hh_jawlery, julia_moczak, julia_jokiel, jlenart_dressage, karolamazurekk, alexandra_szulc, hubertjankowski_, joanna__tragarz, koniulkaa, rzeshaq, clintara_nika, md_dressagepl, beatastremler, kosa_dressage_jumping_horses, kaasial, zalewska_sosna, anna_grygier_wojtowicz, bialylas_stajnia, lkjlewada, veronica.pawluk, mierzejewska_dressage, theprojectequestrian, choinkaonlinepl, magda_jura_dressage_rider, morganbm92, focussed_photography, m.and.a.michnik, nicolabaurdressage, galkowoskferensteinow, varsovia_dressage_club, alicja.karczmarczuk.dressage, fotofaraa, poplawska.alexandra, brunodelgrange_polska, equiraio, laferek, janekkaminski, domi_centurion, jagodxd, florakorkuc, kamil_grzelczyk, tati_b122, ewagolubinska, reitgefuehl_, longinesglobalchampionstour, historicpix, klaraka_rockhorses, stajniazgraja, bemer.martyna.chmielewska, blondedressage, noskonskiwlos, z.kopyta.rekodzielo, dressagetoday, karolinaferenstein_krasko, equiharmony20, equi_harmony, horsereflection, instytutjazdykonnej, onehorselife_official, equinebodyworkonline, herbihorse_shop, candyhorse_shop, ishaansharma711, w_zgodzie_z_koniem, equifizjo_fizjoterapia_koni, beto_baumgartel, hippovet, jd.attack, mizerkaequine, aleksaa_acz, ola_mudry, tazlasu, lina_uzn, jacobnby, lendy.pl, stadnina_koni_rzeczna, _blueberry_mind, chrupka_zywimy_konie, szkoleniajezdzieckie, warsawjumping, stajnia.niderssus, jaroslaw_wierzchowski, eqmarketing, kjkszary.pl, archippstajnia, lumpeks_jezdziecki, ransamorth, salonkonskiswiat, make_life_harder, gsoares.epae, redmills.com.pl, teresa.tomaszewska_dressage, marcin_woldanski_dressage, veronica_madej, noellefloyd, harasophiag, hipodromwola, nauszniki_babuni, kurkaanka, polish_equestrian_federation, dariakobiernik, preisnerdressage, doprzodu.com.pl, pamirek, alicja_kwasniewska_, doks_dressage, xpatyskaxx, szewcwbutach, juliabrodziakdressage, horse_mare_dzordzeta, natalia.ciman, gabriela_adamczewska, caselle.the.filly, traje_de_centurion, stineshorsejumping, agapaszcza, emilyimmerzeder, hella_marina_julia_fp, zuz.eq_, stajnia.eldorado_, stallcarlberg, brown_fur_rulez, vienna.wette, mivicollections, helenegiske, liberty__horses, motty_mac, traverfamilien, krajewsk_aa, maciak_fotografia, liskowa.official, kasiatrojanczyk, katsolifestyle, havnia.equestrian, kasiacaban, kush.tourist, majolszewska, sylwiaklara, grzspl, grb.opowiesci, tz_instable, prezes.robus, szymonsmol, thekonikpomponik, tiemks_equestrian, grubajkamajka, haniapsk, gabi__kaz, marcelinamatyszczak, nicolas__josse, jules_kolodziejak, igaw14, woinskaagata, aud_hrey_07, klusek_1991, knedlikolama, szlachetka.magdalena, gosiakorycka, lidia.kacperska.behawiorystyka, nowaczii, xcxzuzaxcx, kuczerkonno, a_mwojtkowska, equi.physiq, chrzabunixon, magda_konno, filip_kacalski_photography, monikakaminska_official, moniamonika3, mag_horses, kluskaszanel, areksuwinski, miss.popelina, sebsow94_, marlenq__, krzywe_druty, fojmo, tommargol, ows.__, moniwojka, ad_zarow, mrozej14, pawelikoty, thebigbartowski, aliceesmoon, kejtzor, m.m.m.s.58, blossom.themare, mat_romanowicz, stajnia.harmonypark, zt.showjumping, lamaskacze, olga_safronova_dressage, jezdziectwotosport, ewelina.z_or, equi.union, ankr_dressage, ostrowska1604, g_like_gabriela, olgarockshots, gmyrciu_, winieckaa_a, ceo_of_fabbzone, pasja_equine, ala_.eq, oliwiasabala_photography, madzkabrize, stajniaroslonce, otherway_treningi_fizjoterapia, the.two.blondes.team, millydressage, kkaarroo1411, _wieczorek.bartek, horse_partners, martadziakgierlicz, acuvetjasinska, basiapo1976, never7giveup, zbikowa, mlody.jankes, agata_rulon, get.the.balance, kasia.komarek, kroljulian_, beckersportequestrian, horsienene, elizka.zawadzka, anastazja_aksa, koniareczka_kinga, hania.kalita, martyna_reszkaa, pola_czerwinska, maniaa_bed, julka.jaworek, kortneyhate_official, valenokkk, oliwiasabala, __modless, guzowata, gookii13, a12training, horse_and_girl1985, zuzanna_wlodarczykeq, mati.kochlewska, klopotowska, horsephysio_, nereidr94, ewa_janiszewska, just_jzi]
+blogger-post-likers: [ stajnia_otulina, juliaopawska, matildebrandt, lewicki.marek, gosiacl, filip_polowczyk_treningi, oliwia_reaud, klaudia_nalepa_dressage, lkj_ostrogaopole, blackhorse_cosmetics, leap_year_farm_llc_, horse_by_anna, jcdressage_, alkasowa, m_cwiek5, stajnia_wiktoria_jankowska_eq, nadia_chojnacka, horsetack_shop, animus.fizjo, zaplatani_wkonskichgrzywach, anasokolska, magdajuraofficial, foranequine, foran.net.pl, aplilab.school, patrycjak1509, gierszewska_dressage, flyingdressage, b.rynkowska_dressage, lottie_fry, a.sliwkaaa, gallopxmania, stajniagoldenhorse, lerasalash.photo, jradwanskax, robertobrasilofficial, hkmsportsequipment, horsie.candle, natural_eventing_rider, michalkubiak_, z7showhorses, ariatequestrian, swiatwesternu, p.pellowska, ogiery_kicinland, red_camera_photo, hanna.wydorska, tyrkiel_ania_, malgoskrynska, kasia.torun, maja._grzywacz, borysowa, deli_horsesndogs, xxmagdacwikxx, sklepkarina, tackroomj, janina.marta, kajj.cia_145, equus_academy, healthymeadow, saddlefit.dk, kat_lisek, bluechipfeed, nkluska_equineteam, ariatinternational, barbara_polap_eq, ka.pala, liwia_strzeszewska_, wierzchowscy_dressage_team, koniara_i_jej_konie, martyna_wodyk, matylda_olajossy, majazawada_ohl, canagri_jezdziectwo, m.dreger, oczki.equestrian, le_szapo, spaniewvanie, lenart_arabian_horses, michaeljungofficialnews, olakierznowska, alberto.zorzi, nefthis, davekubiak, stajniaiskra, hempqualizer, jaworskagabrieladressage, amanda_perkowski, urania.ai, fridahygum_dressage, jagodnedressage, ania.gwozdz_ohl, alinaz, alfako_pl, de.beukenvallei, photo_by_madzik, biofeed.horseandpony, kadraskoki.pl, matt_harnacke, chodorowska.fotografia, drseidel_konie, laura.klapinska, ala_kosmol, kisiel.horses, wiochazocha, karolinabojda_equestrian, kon.u.psychologa, _annabelle_gypsy_cob_, anneleisesanchez, maciekodskokow, roksanaxnawrocka, rozynekmartin, kbenec_horses, kasiaferenz, stajniaferdyn, paulinachaberphotography, doctor.horse.original, equishade_print, feraequestrian, over_horse, nubaequi, paka_dla_rumaka, karolin.rybicka, pieknykonik, kozera_horses, laura.kulita, n.kapelaa, arts_of_nawia, drozd_miska, taja_zoll_dressage, sonia_dzwigalska, mst.therider, sk_bagieniec, klub_jezdziecki_lencze, szkolanakopytach, mm._.horses, nd_westrider_, trener_maciej_wojciechowski, biopaszedarynatury, equilightness, moledzka_ola, julia.sj.horses, kamijamii, wiktorbatmanszala, largostable, retkakrzysztof, wera_sport_horses, mokoszofficial, jazzuptraining, vanilla_pink_pepper, monika.bartys, paulina__zubrzycka, niulonek, happyhorsesteam, ytc_your_training_center, 4equinepl, jaroslaw_skrzyczynski, luvley.kitty2, harlowlunawhite, zelek_eq, majcia_oswiecinska_official, katarzyna_halter, equinepharmacy, pogotowie_weterynaryjne_equmai, nieumiemjezdzic_, hoof_craft, kjbachmat, lisa_roeckener, ruskowscy.horses, poryw_serca, terranova_eq, dagmara_eq, justinavanagaite, jezdziectwobeztajemnic, ilo_janasdressage, karolina_szczepanskaa, natalia.goreckaa, zuzabednarz_ohl, gm_horses, hihorse.official, ridarella.store, klaudia_kostrzebska, fagerbits, kon_w_swetrze, sabrinahidiroglou, equisk.official, dressage24.pl, cattasegerheim, ridely.app, equilabapp, equestria.pl, susana_catherine, mona_jaw, hh_jawlery, julia_moczak, julia_jokiel, jlenart_dressage, karolamazurekk, alexandra_szulc, hubertjankowski_, joanna__tragarz, koniulkaa, rzeshaq, clintara_nika, md_dressagepl, beatastremler, kosa_dressage_jumping_horses, kaasial, zalewska_sosna, anna_grygier_wojtowicz, bialylas_stajnia, lkjlewada, veronica.pawluk, mierzejewska_dressage, theprojectequestrian, choinkaonlinepl, magda_jura_dressage_rider, morganbm92, focussed_photography, m.and.a.michnik, nicolabaurdressage, galkowoskferensteinow, varsovia_dressage_club, alicja.karczmarczuk.dressage, fotofaraa, poplawska.alexandra, brunodelgrange_polska, equiraio, laferek, janekkaminski, domi_centurion, jagodxd, florakorkuc, kamil_grzelczyk, tati_b122, ewagolubinska, reitgefuehl_, longinesglobalchampionstour, historicpix, klaraka_rockhorses, stajniazgraja, bemer.martyna.chmielewska, blondedressage, noskonskiwlos, z.kopyta.rekodzielo, dressagetoday, karolinaferenstein_krasko, equiharmony20, equi_harmony, horsereflection, instytutjazdykonnej, onehorselife_official, equinebodyworkonline, herbihorse_shop, candyhorse_shop, ishaansharma711, w_zgodzie_z_koniem, equifizjo_fizjoterapia_koni, beto_baumgartel, hippovet, jd.attack, mizerkaequine, aleksaa_acz, ola_mudry, tazlasu, lina_uzn, jacobnby, lendy.pl, stadnina_koni_rzeczna, _blueberry_mind, chrupka_zywimy_konie, szkoleniajezdzieckie, warsawjumping, stajnia.niderssus, jaroslaw_wierzchowski, eqmarketing, kjkszary.pl, archippstajnia, lumpeks_jezdziecki, ransamorth, salonkonskiswiat, make_life_harder, gsoares.epae, redmills.com.pl, teresa.tomaszewska_dressage, marcin_woldanski_dressage, veronica_madej, noellefloyd, harasophiag, hipodromwola, nauszniki_babuni, kurkaanka, polish_equestrian_federation, dariakobiernik, preisnerdressage, doprzodu.com.pl, pamirek, alicja_kwasniewska_, doks_dressage, xpatyskaxx, szewcwbutach, juliabrodziakdressage, horse_mare_dzordzeta, natalia.ciman, gabriela_adamczewska, caselle.the.filly, traje_de_centurion, stineshorsejumping, agapaszcza, emilyimmerzeder, hella_marina_julia_fp, zuz.eq_, stajnia.eldorado_, stallcarlberg, brown_fur_rulez, vienna.wette, mivicollections, helenegiske, liberty__horses, motty_mac, traverfamilien, krajewsk_aa, maciak_fotografia, liskowa.official, kasiatrojanczyk, katsolifestyle, havnia.equestrian, kasiacaban, kush.tourist, majolszewska, sylwiaklara, grzspl, grb.opowiesci, tz_instable, prezes.robus, szymonsmol, thekonikpomponik, tiemks_equestrian, grubajkamajka, haniapsk, gabi__kaz, marcelinamatyszczak, nicolas__josse, jules_kolodziejak, igaw14, woinskaagata, aud_hrey_07, klusek_1991, knedlikolama, szlachetka.magdalena, gosiakorycka, lidia.kacperska.behawiorystyka, nowaczii, xcxzuzaxcx, kuczerkonno, a_mwojtkowska, equi.physiq, chrzabunixon, magda_konno, filip_kacalski_photography, monikakaminska_official, moniamonika3, mag_horses, kluskaszanel, areksuwinski, miss.popelina, sebsow94_, marlenq__, krzywe_druty, fojmo, tommargol, ows.__, moniwojka, ad_zarow, mrozej14, pawelikoty, thebigbartowski, aliceesmoon, kejtzor, m.m.m.s.58, blossom.themare, mat_romanowicz, stajnia.harmonypark, zt.showjumping, lamaskacze, olga_safronova_dressage, jezdziectwotosport, ewelina.z_or, equi.union, ankr_dressage, ostrowska1604, g_like_gabriela, olgarockshots, gmyrciu_, winieckaa_a, ceo_of_fabbzone, pasja_equine, ala_.eq, oliwiasabala_photography, madzkabrize, stajniaroslonce, otherway_treningi_fizjoterapia, the.two.blondes.team, millydressage, kkaarroo1411, _wieczorek.bartek, horse_partners, martadziakgierlicz, acuvetjasinska, basiapo1976, never7giveup, zbikowa, mlody.jankes, agata_rulon, get.the.balance, kasia.komarek, kroljulian_, beckersportequestrian, horsienene, elizka.zawadzka, anastazja_aksa, koniareczka_kinga, hania.kalita, martyna_reszkaa, pola_czerwinska, maniaa_bed, julka.jaworek, kortneyhate_official, valenokkk, oliwiasabala, __modless, guzowata, gookii13, a12training, horse_and_girl1985, zuzanna_wlodarczykeq, mati.kochlewska, klopotowska, horsephysio_, nereidr94, ewa_janiszewska, just_jzi]
+# blogger: [ username1, username2 ]
+# hashtag-likers-top: [ hashtag1, hashtag2 ]
+# hashtag-likers-recent: [ hashtag1, hashtag2 ]
+# hashtag-posts-top: [ hashtag1, hashtag2 ]
+# hashtag-posts-recent: [ hashtag1, hashtag2 ]
+# place-posts-top: [ place1, place2 ]
+# place-posts-recent: [ place1, place2 ]
+# place-likers-top: [ place1, place2 ]
+# place-likers-recent: [ place1, place2 ]
+# interact-from-file: [usernames1.txt 10-15, usernames2.txt 3]
+# posts-from-file: posts.txt
+feed: 20-50 # is the number of likes you will give in feed
+
+## Special modifier for jobs and sources
+watch-video-time: 0-3
+watch-photo-time: 1-2
+can-reinteract-after: 336 # the amount of hours that have to pass from the last interaction
+delete-interacted-users: false
+
+## Unfollow (unfollow jobs)
+# unfollow: 10-20
+# unfollow-any: 10-20
+# unfollow-non-followers: 10-20
+# unfollow-any-non-followers: 10-20
+# unfollow-any-followers: 10-20
+# unfollow-from-file: [usernames1.txt 7-15, usernames2.txt 6]
+
+## Special modifier for unfollow jobs
+# sort-followers-newest-to-oldest: false
+# unfollow-delay: 15
+
+## Remove followers (active jobs)
+# remove-followers-from-file: [remove1.txt 5-10, remove2.txt 6]
+
+## Special modifier for remove followers
+# delete-removed-followers: true
+
+## Post Processing
+# analytics: false # no more supported
+telegram-reports: false # for using telegram-reports you have also to configure telegram.yml in your account folder
+
+## Special actions
+# pre-script: pre_script_path_here
+# post-script: post_script_path_here
+
+##############################################################################
+# Source Limits
+##############################################################################
+
+interact-percentage: 80-100
+interactions-count: 70-120
+likes-count: 1-2
+likes-percentage: 70-100
+stories-count: 3-6
+stories-percentage: 100
+carousel-count: 1-2
+carousel-percentage: 30-70
+# max-comments-pro-user: 1-2
+# comment-percentage: 30-40
+# pm-percentage: 30-40
+# follow-percentage: 30-40
+# follow-limit: 50
+# skipped-list-limit: 10-15
+# skipped-posts-limit: 5
+# fling-when-skipped: 0
+# min-following: 100
+
+##############################################################################
+# Total Limits Per Session
+##############################################################################
+
+total-likes-limit: 800-1000
+# total-follows-limit: 40-50
+# total-unfollows-limit: 40-50
+total-watches-limit: 1000-1200
+total-successful-interactions-limit: 1000-1200
+total-interactions-limit: 1000-1200
+# total-comments-limit: 3-5
+# total-pm-limit: 3-5
+# total-scraped-limit: 100-150
+
+##############################################################################
+# Ending Session Conditions
+##############################################################################
+
+end-if-likes-limit-reached: true
+end-if-follows-limit-reached: false
+end-if-watches-limit-reached: false
+end-if-comments-limit-reached: false
+end-if-pm-limit-reached: false
+
+##############################################################################
+# Scheduling
+##############################################################################
+
+# working-hours: [23.01-08.01, 12.00-18.00]
+# time-delta: 10-30
+# repeat: 10-60
+total-sessions: -1 # -1 or commented for infinite sessions
